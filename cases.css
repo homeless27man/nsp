@@ -1,0 +1,234 @@
+@media only screen and (max-width: 640px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background-color: rgb(202, 199, 199);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+  #title {
+    background-color: rgb(57, 82, 128);
+    color: white;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+  }
+  #title img {
+    margin-top: 10px;
+    height: 150px;
+    margin-bottom: -10px;
+  }
+  h1 {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  nav {
+    background-color: rgb(73, 101, 155);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 80px;
+    width: auto;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  .nav-link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  .nav-link-active,
+  .nav-link:active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  #title {
+    background-color: rgb(57, 82, 128);
+    width: 100vw;
+    height: auto;
+    text-align: center;
+  }
+  main {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    overflow: auto; /* Add scrollbars if content overflows */
+    word-wrap: break-word; /* Break the word at the end of the line */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: rgb(57, 82, 128);
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: auto;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1200px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+  #title {
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+  }
+  #title img {
+    margin-top: 10px;
+    height: 150px;
+    margin-bottom: -10px;
+  }
+  h1 {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  nav {
+    background-color: #6977a9;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 80px;
+    width: auto;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  .nav-link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+  .nav-link-active,
+  .nav-link:active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+  }
+  #title {
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+  }
+  #title img {
+    margin-top: 10px;
+    height: 150px;
+    margin-bottom: -10px;
+  }
+  h1 {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  nav {
+    background-color: #6977a9;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    height: 80px;
+    width: auto;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  .nav-link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 20px;
+  }
+  .nav-link-active,
+  .nav-link:active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 4px;
+    font-size: 20px;
+  }
+}
